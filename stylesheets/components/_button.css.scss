@@ -1,0 +1,32 @@
+
+.btn-medium {
+    border: 3px solid white;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 150;
+    opacity: 2;
+    text-decoration: none;
+    transition: opacity 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.btn-medium:hover{
+	color: #98A16E;
+}
+
+
+.btn-custom{
+	height:40px;
+	color:white;
+	background:#98A16E;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:10px;
+	
+	background-color:#98A16E;
+	font-size:16px;
+}
+
+.btn-custom:hover{
+		background-color: darken(#98A16E, 10%);
+	}

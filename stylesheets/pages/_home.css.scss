@@ -1,0 +1,97 @@
+#banner {
+  background-image: image-url("tinyhouse1.jpg");
+  margin:0;
+  padding:0;
+  color: white;
+  background-size: cover;
+  height: 780px;
+  h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+    color: white;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+  }
+}
+
+
+.padded {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.black-bg {
+  background:$black;
+  color:$gray-light;
+  display:block;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-family: 'Open Sans', sans-serif;
+  h2{
+    font-size:20px;
+    letter-height:36px;
+    letter-spacing:6px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h3{
+    font-size:16px;
+    letter-height:22px;
+    letter-spacing:0px;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  p{
+    font-size:16px;
+    letter-height:35px;
+  }
+}
+
+.separator{
+  width:15% !important;
+  height:1px;
+}
+
+#bg-sea{
+  background-image: image-url("hillview.jpg");
+  color: white;
+  background-size: cover;
+  opacity:0.9;
+  padding-top:50px;
+  h2{
+    font-size:20px;
+    letter-height:36px;
+    letter-spacing:6px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h3{
+    font-size:13px;
+    letter-height:29px;
+    letter-spacing:6px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    font-size:16px;
+    letter-height:35px;
+    letter-spacing:0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.card-text{
+  margin-top:66px;
+}
+
+
+#products{
+  background:white;
+}
+
+
+.btn-scroll {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    position:relative;
+    top:120px;
+}
